@@ -1,5 +1,6 @@
 const nextConfig = {
   reactStrictMode: true,
+  basePath: '',
   trailingSlash: true,
   images: {
     domains: [],
