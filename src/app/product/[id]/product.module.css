@@ -1,0 +1,85 @@
+/* src/app/product/[id]/product.module.css */
+.container {
+    padding: 20px 40px;
+    background-color: #fff;
+}
+
+.productName {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.productDescription {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.productDetail {
+    display: flex;
+    gap: 40px;
+}
+
+.imageContainer {
+    flex: 1;
+}
+
+.details {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.detailsTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ml {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.keyword {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.quantityInput {
+    width: 60px;
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.checkbox {
+    margin-left: 10px;
+}
+
+.purchaseButton {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+}

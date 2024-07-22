@@ -1,0 +1,117 @@
+/* src/app/cart/cart.module.css */
+.container {
+    padding: 20px 40px;
+    background-color: #fff;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cartItems {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cartItem {
+    display: flex;
+    border: 1px solid #f0f0f0;
+    padding: 20px;
+    background-color: #fff;
+    transition: transform 0.2s;
+    position: relative;
+}
+
+.cartItem:hover {
+    transform: translateY(-5px);
+}
+
+.cartItemImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.cartItemDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.cartItemName {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cartItemOptions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.cartItemActions {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.quantityInput {
+    width: 60px;
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.checkbox {
+    margin-left: 10px;
+}
+
+.saveButton,
+.editButton,
+.deleteButton {
+    padding: 5px 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px; /* 글씨 크기를 조정 */
+    border-radius: 4px; /* 버튼 모서리 둥글게 */
+}
+
+.saveButton {
+    background-color: #0070f3; /* 저장하기 버튼 색상 */
+}
+
+.editButton {
+    background-color: #00c853; /* 수정하기 버튼 색상 */
+}
+
+.deleteButton {
+    background-color: #d32f2f; /* 삭제하기 버튼 색상 */
+}
+
+.purchaseAllContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.purchaseAllButton {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}

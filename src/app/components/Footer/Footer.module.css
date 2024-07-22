@@ -1,0 +1,38 @@
+.footer {
+    background-color: #f8f8f8;
+
+    border-top: 1px solid #ccc;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.section {
+    width: 30%;
+}
+
+.section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.section p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.footerBottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #424242;
+    border-top: 1px solid #ccc;
+}
+
+.footerBottom p {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
