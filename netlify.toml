@@ -15,6 +15,6 @@
     Content-Type = "application/javascript; charset=utf-8"
 
 [[headers]]
-  for = "/*.css"
+  for = "/*.module.css"
   [headers.values]
     Content-Type = "text/css; charset=utf-8"
