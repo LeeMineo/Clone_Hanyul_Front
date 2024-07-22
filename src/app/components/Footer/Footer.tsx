@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.footerBottom}>
-                <p>&copy; 2024 Clone Codong. 이민서.</p>
+                <p>&copy; 2024 Clone Coding. 이민서.</p>
             </div>
         </footer>
     );
