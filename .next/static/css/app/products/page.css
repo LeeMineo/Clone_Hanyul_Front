@@ -1,0 +1,101 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/products/products.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+/* src/app/products/products.module.css */
+.products_container__xARcC {
+    padding: 20px 40px;
+    background-color: #fff;
+}
+
+.products_title__w0RVR {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: auto; /* 제목을 왼쪽으로 정렬하기 위해 추가 */
+}
+
+.products_filters__iusPM {
+    display: flex;
+    align-items: flex-start; /* 필터 섹션을 중앙 정렬 */
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.products_filter__6oB7F select {
+    padding: 10px 35px; /* 필터 박스 크기를 키우기 위해 수정 */
+    border: 1px solid #000;
+    border-radius: 0;
+    font-size: 18px; /* 글씨 크기를 줄이기 위해 수정 */
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.products_divider___YsVh {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+.products_productList__BVliX {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.products_productItem__ZTnP9 {
+    width: calc(25% - 20px); /* 기본적으로 한 줄에 4개 */
+    box-sizing: border-box;
+    border: 1px solid #f0f0f0;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column; /* 자식 요소들을 세로로 정렬 */
+    align-items: center; /* 자식 요소들을 중앙 정렬 */
+}
+
+.products_productItem__ZTnP9:hover {
+    transform: translateY(-5px);
+}
+
+.products_productLink__c5UMt {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.products_productDetails__7cKo7 {
+    padding-top: 10px;
+}
+
+.products_productDescription__k0s_N {
+    font-size: 15px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.products_productName__ikZY5 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 미디어 쿼리 추가 */
+@media (max-width: 1200px) {
+    .products_productItem__ZTnP9 {
+        width: calc(33.33% - 20px); /* 화면 크기가 1200px 이하일 때 한 줄에 3개 */
+    }
+}
+
+@media (max-width: 900px) {
+    .products_productItem__ZTnP9 {
+        width: calc(50% - 20px); /* 화면 크기가 900px 이하일 때 한 줄에 2개 */
+    }
+}
+
+@media (max-width: 600px) {
+    .products_productItem__ZTnP9 {
+        width: calc(100% - 20px); /* 화면 크기가 600px 이하일 때 한 줄에 1개 */
+    }
+}
+
